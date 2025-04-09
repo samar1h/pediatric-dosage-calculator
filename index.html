@@ -198,11 +198,8 @@
     
     <div id="calculator" class="tabcontent visible card">
         
-        <div class="form-group">
-            <label for="adultDose">Adult Dose (mg):</label>
-            <input type="number" id="adultDose" placeholder="Enter adult dose in mg" min="0" step="0.1">
-        </div>
         
+        <!--<div class="form-group"></div>-->
         <div class="form-group">
             <label for="method">Calculation Method:</label>
             <select id="method">
@@ -220,6 +217,11 @@
                 <option value="augsberger">Augsberger's Rule</option>
                 <option value="clark">Clark's Rule (Weight)</option>
             </select>
+        </div>
+
+        <div class="form-group">
+            <label for="adultDose">Adult Dose (mg):</label>
+            <input type="number" id="adultDose" placeholder="Enter adult dose in mg" min="0" step="0.1">
         </div>
         
         <div id="age-input" class="form-group">
