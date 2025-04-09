@@ -411,6 +411,7 @@
             const method = this.value;
             
             // Hide all inputs first
+            document.getElementById('adultDose').style.display = 'block';
             document.getElementById('age-input').style.display = 'none';
             document.getElementById('age-months-input').style.display = 'none';
             document.getElementById('weight-input').style.display = 'none';
@@ -448,6 +449,7 @@
                 case 'weight':
                     document.getElementById('weight-input').style.display = 'block';
                     document.getElementById('mg-per-kg-input').style.display = 'block';
+                    document.getElementById('adultDose').style.display = 'none';
                     break;
             }
             
